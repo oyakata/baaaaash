@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  develop:
+    build: .
+    tty: true
+    volumes:
+      - .:/code
